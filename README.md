@@ -9,7 +9,7 @@ error-notes/
 ├── agent-reach/          # Agent Reach 项目相关报错
 ├── rag/                  # 战锤40K RAG 项目相关报错
 ├── chatgpt-on-wechat/    # chatgpt-on-wechat 项目相关报错
-└── common/               # 通用环境 / 工具报错（pip、git、SSH 等）
+└── common/               # 通用环境 / 工具报错（pip、git、SSH、gh 等）
 ```
 
 ## 文件命名规则
@@ -44,6 +44,8 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 | 编号 | 文件 | 描述 |
 |------|------|------|
 | 01 | [error-01-webpy-cgi-module-removed.md](chatgpt-on-wechat/error-01-webpy-cgi-module-removed.md) | web.py 0.62 依赖已移除的 `cgi` 模块，Python 3.13+ 安装失败 |
+| 02 | [error-02-installer-python-version-blocked.md](chatgpt-on-wechat/error-02-installer-python-version-blocked.md) | 官方安装脚本硬编码 Python 3.9–3.13，3.14 被直接拦截 |
+| 03 | [error-03-git-clone-dir-exists.md](chatgpt-on-wechat/error-03-git-clone-dir-exists.md) | git clone 目标目录已存在导致失败 |
 
 ## common/
 
@@ -51,6 +53,7 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 |------|------|------|
 | 01 | [error-01-github-ssh-permission-denied.md](common/error-01-github-ssh-permission-denied.md) | GitHub SSH 认证失败（未配置公钥） |
 | 02 | [error-02-pip-tsinghua-proxy-error.md](common/error-02-pip-tsinghua-proxy-error.md) | 清华镜像被代理拦截 ProxyError |
+| 03 | [error-03-gh-cli-not-found-and-406.md](common/error-03-gh-cli-not-found-and-406.md) | gh CLI 未安装 / PATH 未更新 / 登录 406（国内代理未透传） |
 
 ---
 
