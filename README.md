@@ -6,9 +6,10 @@
 
 ```
 error-notes/
-├── agent-reach/   # Agent Reach 项目相关报错
-├── rag/           # 战锤40K RAG 项目相关报错
-└── common/        # 通用环境 / 工具报错（pip、git、SSH 等）
+├── agent-reach/          # Agent Reach 项目相关报错
+├── rag/                  # 战锤40K RAG 项目相关报错
+├── chatgpt-on-wechat/    # chatgpt-on-wechat 项目相关报错
+└── common/               # 通用环境 / 工具报错（pip、git、SSH 等）
 ```
 
 ## 文件命名规则
@@ -37,6 +38,12 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 | 04 | [error-04-rank-bm25-no-version-attr.md](rag/error-04-rank-bm25-no-version-attr.md) | rank_bm25 模块没有 `__version__` 属性（无害，可忽略） |
 | 05 | [error-05-langchain-community-not-found.md](rag/error-05-langchain-community-not-found.md) | `ModuleNotFoundError: No module named 'langchain_community'`（未激活虚拟环境） |
 | 06 | [error-06-hf-xethub-ssl-cert-failed.md](rag/error-06-hf-xethub-ssl-cert-failed.md) | HuggingFace 下载 BAAI/bge-m3 时 SSL 证书验证失败（XetHub 后端） |
+
+## chatgpt-on-wechat/
+
+| 编号 | 文件 | 描述 |
+|------|------|------|
+| 01 | [error-01-webpy-cgi-module-removed.md](chatgpt-on-wechat/error-01-webpy-cgi-module-removed.md) | web.py 0.62 依赖已移除的 `cgi` 模块，Python 3.13+ 安装失败 |
 
 ## common/
 
