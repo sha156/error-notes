@@ -9,6 +9,7 @@ error-notes/
 ├── agent-reach/          # Agent Reach 项目相关报错
 ├── rag/                  # 战锤40K RAG 项目相关报错
 ├── chatgpt-on-wechat/    # chatgpt-on-wechat 项目相关报错
+├── flappy-bird/          # Flappy Bird 计算机图形学项目相关报错
 └── common/               # 通用环境 / 工具报错（pip、git、SSH、gh 等）
 ```
 
@@ -52,6 +53,12 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 | 02 | [error-02-installer-python-version-blocked.md](chatgpt-on-wechat/error-02-installer-python-version-blocked.md) | 官方安装脚本硬编码 Python 3.9–3.13，3.14 被直接拦截 |
 | 03 | [error-03-git-clone-dir-exists.md](chatgpt-on-wechat/error-03-git-clone-dir-exists.md) | git clone 目标目录已存在导致失败 |
 | 04 | [error-04-cgi-module-legacy-fix.md](chatgpt-on-wechat/error-04-cgi-module-legacy-fix.md) | Python 3.14 移除 cgi 模块 — legacy-cgi 安装与适配全过程 |
+
+## flappy-bird/
+
+| 编号 | 文件 | 描述 |
+|------|------|------|
+| 01 | [error-01-pygame-cg-pipeline.md](flappy-bird/error-01-pygame-cg-pipeline.md) | Pygame 渲染管线 + AI 系统全部报错汇总（9 个错误：AI 策略/字体/BAT 编码/surfarray/import/SysFont） |
 
 ## common/
 
