@@ -38,6 +38,11 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 | 04 | [error-04-rank-bm25-no-version-attr.md](rag/error-04-rank-bm25-no-version-attr.md) | rank_bm25 模块没有 `__version__` 属性（无害，可忽略） |
 | 05 | [error-05-langchain-community-not-found.md](rag/error-05-langchain-community-not-found.md) | `ModuleNotFoundError: No module named 'langchain_community'`（未激活虚拟环境） |
 | 06 | [error-06-hf-xethub-ssl-cert-failed.md](rag/error-06-hf-xethub-ssl-cert-failed.md) | HuggingFace 下载 BAAI/bge-m3 时 SSL 证书验证失败（XetHub 后端） |
+| 07 | [error-07-faiss-merge-dimension-mismatch.md](rag/error-07-faiss-merge-dimension-mismatch.md) | FAISS merge_from 矢量维度不匹配 |
+| 08 | [error-08-openai-no-defaulthttpxclient.md](rag/error-08-openai-no-defaulthttpxclient.md) | langchain_openai 导入失败，openai 模块缺 DefaultHttpxClient |
+| 09 | [error-09-tiktoken-version-conflict.md](rag/error-09-tiktoken-version-conflict.md) | tiktoken 版本过旧与 langchain_openai 不兼容 |
+| 10 | [error-10-flashrank-not-installed.md](rag/error-10-flashrank-not-installed.md) | streamlit 环境缺少 flashrank 模块 |
+| 11 | [error-11-python39-union-type-syntax.md](rag/error-11-python39-union-type-syntax.md) | Python 3.9 不支持 X \| Y 联合类型注解语法 |
 
 ## chatgpt-on-wechat/
 
@@ -46,6 +51,7 @@ error-NN-简短描述.md   （每个项目内从 01 开始）
 | 01 | [error-01-webpy-cgi-module-removed.md](chatgpt-on-wechat/error-01-webpy-cgi-module-removed.md) | web.py 0.62 依赖已移除的 `cgi` 模块，Python 3.13+ 安装失败 |
 | 02 | [error-02-installer-python-version-blocked.md](chatgpt-on-wechat/error-02-installer-python-version-blocked.md) | 官方安装脚本硬编码 Python 3.9–3.13，3.14 被直接拦截 |
 | 03 | [error-03-git-clone-dir-exists.md](chatgpt-on-wechat/error-03-git-clone-dir-exists.md) | git clone 目标目录已存在导致失败 |
+| 04 | [error-04-cgi-module-legacy-fix.md](chatgpt-on-wechat/error-04-cgi-module-legacy-fix.md) | Python 3.14 移除 cgi 模块 — legacy-cgi 安装与适配全过程 |
 
 ## common/
 
